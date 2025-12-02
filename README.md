@@ -59,6 +59,7 @@ Deployed on Render➡️ https://four2ft-transcendence.onrender.com/
     *   **Component-Based UI**: The UI is built using a modular, function-based component pattern, where each function is responsible for rendering a specific part of the interface.
 
 
-
+## Contact
+if you are interested to see the code, contact me in PM
 
 
