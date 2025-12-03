@@ -23,8 +23,8 @@ Deployed on Render➡️ https://four2ft-transcendence.onrender.com/
 - **Real-time Multiplayer Gameplay** 🎮:
   - Classic Pong-style gameplay.
   - Real-time matchmaking with other players.
-  - Single-player mode against an AI opponent. 🤖
-  - Tournament mode for multiple players. 🏆
+  - Single-player mode against an AI opponent.
+  - Tournament mode for multiple players.
 - **Social Features** 🤝:
   - Friends system: Add and remove friends.
   - Real-time private chat with friends.
@@ -33,7 +33,7 @@ Deployed on Render➡️ https://four2ft-transcendence.onrender.com/
 ### Backend ⚙️
 
 *   **Framework**: **Fastify** 🚀 is used as the web framework for Node.js, chosen for its high performance and low overhead.
-*   **Language**: **Node.js** 🟢 is the runtime environment for the server-side code.
+*   **Language**: **Node.js** for the Server
 *   **Database** 🗃️:
     *   **SQLite3**: A lightweight, file-based SQL database used for data storage.
     *   **Knex.js**: A SQL query builder used to interact with the database, allowing for portable and clean database code.
@@ -42,24 +42,18 @@ Deployed on Render➡️ https://four2ft-transcendence.onrender.com/
     *   **JSON Web Tokens (JWT)**: Used for creating access tokens to manage user sessions securely.
     *   **bcrypt**: Passwords are hashed using bcrypt before being stored in the database.
     *   **Speakeasy**: A library used to implement Time-based One-Time Passwords (TOTP) for Two-Factor Authentication (2FA).
-    *   **Helmet**: A Fastify plugin that sets various HTTP headers to secure the application from common web vulnerabilities.
-*   **Module System**: The backend uses **ES Modules (ESM)** (`import`/`export` syntax), which is the modern standard for JavaScript modules.
-*   **Object-Oriented Programming (OOP)**: The game logic is structured using classes like `GameEngine`, `Tournament`, and `AIOpponent`, encapsulating state and behavior in a clean, object-oriented way.
+*   **Object-Oriented Programming (OOP)**: used to structure the game logic, tournament handling, socket implementation and more.
 
 ### Frontend 🎨
 
 *   **Build Tool/Bundler**: **Vite** ⚡ is used as the frontend build tool, providing a fast development server and optimized production builds.
-*   **Language**: **TypeScript** 🔵 is used for writing type-safe frontend code, which helps prevent common errors and improves code quality.
+*   **Language**: **TypeScript**
 *   **Styling** 💅:
     *   **Tailwind CSS**: A utility-first CSS framework used for rapidly building custom user interfaces.
     *   **Plain CSS**: Used for global styles and base component styling.
-*   **Architectural Pattern** 🏛️:
-    *   **Single Page Application (SPA)**: The application operates as an SPA. The frontend code dynamically rewrites the current page rather than loading new pages from the server.
-    *   **Client-Side Routing**: A custom router is implemented to handle navigation within the SPA without full page reloads.
-    *   **Component-Based UI**: The UI is built using a modular, function-based component pattern, where each function is responsible for rendering a specific part of the interface.
 
 
 ## Contact
-if you are interested to see the code, contact me in PM
+If you’d like to check out the code, just drop me a PM.
 
 
